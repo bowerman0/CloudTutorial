@@ -1,0 +1,17 @@
+{
+  "name": "CloudTutorial",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bowerman0/CloudTutorial",
+  "authors": [
+    "Michael Bowerman <michael.bowerman@gmail.com>"
+  ],
+  "main": "server.js",
+  "license": "GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
