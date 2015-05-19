@@ -11,12 +11,14 @@ else {
   server.connection({ port: 1337 });
 }
 
-
 server.route({
-  method: 'GET',
-  path: '/',
-  handler: function (request, reply) {
-    reply('Hello, world!');
+  method : "GET",
+  path : '/{param*}',
+  handler : {
+    directory : {
+      path : 'public',
+  listing : true
+    }
   }
 });
 
